@@ -1,6 +1,7 @@
 
 # STEGANOGRAPHY
-# General
+
+# GENARAL
 
 ```bash 
 file [filename] # type of file  
@@ -22,6 +23,7 @@ sonic visuliazer # spectogram
 morse code decoder
 steganosaur
 ```
+
 # Text
 
 ```bash 
@@ -42,6 +44,9 @@ pdfid
 # CRYPTOGRAPHY
 
 ```bash 
+
+cyberchef # encoding and decoding data
+
 openssl rsautl -decrypt -inkey pub_priv.key -in ciphertext.file -out decrypted.file
 openssl enc -d -aes-256-cbc -in ciphertext.file -out cleartext.file -pass file:./key.file
 openssl enc -aes-256-cbc -d -a -in file.txt.enc -out file.txt
@@ -50,6 +55,10 @@ openssl enc -aes-256-cbc -d -a -in file.txt.enc -out file.txt
 # REVERSE ENGINEERING
 
 ```bash 
+ltrace [filename] # strings comparisons
+
+RADARE 2
+
 radare2 [filename]
 i [info] #information about the binary
 ie [info entrypoint] # get the entry poitns of the binary

@@ -1,7 +1,7 @@
 
 # STEGANOGRAPHY
 
-# GENARAL
+# GENERAL
 
 ```bash 
 file [filename] # type of file  
